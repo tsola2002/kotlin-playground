@@ -11,4 +11,20 @@ fun main() {
     println(age)
     age = 40
     println(age)
+
+    val salary = 30000L
+    println(salary)
+
+    val course = "Kotlin Spring"
+    println("Course: $course and the course length is ${course.length}")
+
+    val multiline = "ABC \n DEF"
+    println(multiline)
+
+    val preformat = """
+        ABC
+        DEF
+    """.trimIndent()
+
+    println(preformat)
 }
