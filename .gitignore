@@ -21,3 +21,6 @@ target/
 .classpath
 .project
 .settings/
+
+# Gradle
+.gradle/
