@@ -1,6 +1,15 @@
 package com.kotlinplayground.basics
 
+import com.kotlinplayground.functions.courseName
+import com.kotlinplayground.functions.topLevelFunction
+
 fun main() {
+
+    val num = topLevelFunction()
+    println("Num is : $num")
+
+    println("courseName : $courseName")
+
     val name : String = "Omatsola"
     println(name)
 
