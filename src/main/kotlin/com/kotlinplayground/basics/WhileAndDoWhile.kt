@@ -2,7 +2,7 @@ package com.kotlinplayground.basics
 
 fun main() {
    // exploreWhile()
-    exploreDoWhile()
+    //exploreDoWhile()
 }
 
 fun exploreDoWhile() {
