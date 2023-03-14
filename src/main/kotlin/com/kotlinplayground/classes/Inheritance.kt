@@ -24,6 +24,15 @@ class Student(name: String) : User(name){
         // CALLING PARENT LOGIN FUNCTION USING SUPER KEYWORD
         super.login()
     }
+
+    companion object {
+        // static variable within a class
+        const val noOfEnrolledCourses = 10
+
+        //static function within a class
+        fun country() = "USA"
+    }
+
 }
 
 class Instructor(name: String) : User(name)
@@ -38,4 +47,10 @@ fun main() {
     val instructor = Instructor("Mayowa")
     println("instructor name is: ${instructor.name}")
     instructor.login()
+
+    val country =  Student.country()
+    println("Country is : $country")
+
+    val enrolled = Student.noOfEnrolledCourses
+    println("Enrolled courses is : $enrolled")
 }
